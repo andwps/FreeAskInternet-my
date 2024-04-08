@@ -33,15 +33,7 @@ FreeAskInternet is a completely free, private and locally running search aggrega
 This project is still in its very early days. Expect some bugs. 
 
 
-### Run the latest release
 
-```bash
-git clone https://github.com/nashsu/FreeAskInternet.git
-cd ./FreeAskInternet
-docker-compose up -d 
-```
-
-🎉 You should now be able to open the web interface on http://localhost:3000. Nothing else is exposed by default.
 
 
 ### How to update to latest 
@@ -54,7 +46,14 @@ docker image rm nashsu/free_ask_internet
 docker-compose up -d
 ```
  
+### Run the latest release
 
+```bash
+git clone https://github.com/nashsu/FreeAskInternet.git
+cd ./FreeAskInternet
+docker-compose up -d 
+```
+🎉 You should now be able to open the web interface on http://localhost:3000. Nothing else is exposed by default.
 
 ## Credits
 - ChatGPT-Next-Web : [https://github.com/ChatGPTNextWeb/ChatGPT-Next-Web](https://github.com/ChatGPTNextWeb/ChatGPT-Next-Web)
